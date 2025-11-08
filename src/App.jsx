@@ -11,7 +11,7 @@ function App() {
     return (
         <div className="container">
             <h1 className={visible ? "fade-in" : "hidden"}>
-                ¡Bienvenido a mi proyecto React con Vite! 🚀
+                ¡Bienvenido a mi proyecto React con Vite, me alegro! 🚀
             </h1>
             <p className={visible ? "fade-in" : "hidden"}>
                 Este es un ejemplo simple para practicar forks y pull requests.
