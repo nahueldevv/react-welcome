@@ -16,8 +16,8 @@ function App() {
             <p className={visible ? "fade-in" : "hidden"}>
                 Este es un ejemplo simple para practicar forks y pull requests.
             </p>
-            <p className={visible ? "fade-in" : "hidden"}>
-                Cambio realizado por Br1dev
+            <p className={visible ? "fade-in" : "hidden"}>          
+                Cambio realizado por Brunodev
             </p>
         </div>
     );
