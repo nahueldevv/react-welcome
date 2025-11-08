@@ -1,23 +1,26 @@
-import { useEffect, useState } from 'react';
-import './App.css';
+import { useEffect, useState } from "react";
+import "./App.css";
 
 function App() {
-  const [visible, setVisible] = useState(false);
+    const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => setVisible(true), 300);
-  }, []);
+    useEffect(() => {
+        setTimeout(() => setVisible(true), 300);
+    }, []);
 
-  return (
-    <div className="container">
-      <h1 className={visible ? 'fade-in' : 'hidden'}>
-        ¡Bienvenido a mi proyecto React con Vite! 🚀
-      </h1>
-      <p className={visible ? 'fade-in' : 'hidden'}>
-        Este es un ejemplo simple para practicar forks y pull requests.
-      </p>
-    </div>
-  );
+    return (
+        <div className="container">
+            <h1 className={visible ? "fade-in" : "hidden"}>
+                ¡Bienvenido a mi proyecto React con Vite! 🚀
+            </h1>
+            <p className={visible ? "fade-in" : "hidden"}>
+                Este es un ejemplo simple para practicar forks y pull requests.
+            </p>
+            <p className={visible ? "fade-in" : "hidden"}>
+                Cambio realizado por Br1dev
+            </p>
+        </div>
+    );
 }
 
 export default App;
