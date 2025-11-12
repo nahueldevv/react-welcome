@@ -14,7 +14,7 @@ function App() {
                 ¡Bienvenido a mi proyecto React con Vite, me alegro! 🚀
             </h1>
             <p className={visible ? "fade-in" : "hidden"}>
-                Este es un ejemplo simple para practicar forks y pull requests. Voy a hacer cambios aqui
+                Esta es una oracion de prueba. Lucas
             </p>
             <p className={visible ? "fade-in" : "hidden"}>          
                 Cambio realizado por Brunodev
